@@ -6,8 +6,9 @@ This repository contains code for extracting faces from images using OpenCV and 
   pip install opencv-python pillow matplotlib  
 2. Load the image and call the faceExtract function with the file path of the image:
   extracted_face = faceExtract('filePath.jpg')
-3. The function will detect faces in the image, draw rectangles around them, and display the original image with rectangles and the extracted face separately.  
-4.The execution time of the face detection process will be printed.
+3. The function will detect faces in the image, draw rectangles around them, and display the original image with rectangles and the extracted
+  face separately. 
+5.The execution time of the face detection process will be printed.
 
 
 
